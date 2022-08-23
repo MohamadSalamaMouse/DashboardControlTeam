@@ -1,0 +1,20 @@
+{
+    "name": "user/ieee",
+    "description": "freamwork",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MohamedSalamaMouse",
+            "email": "slamtm608@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"^8"
+    },
+    "autoload": {
+        "psr-4": {
+           "mvc\\":"app"
+        }
+    }
+}
